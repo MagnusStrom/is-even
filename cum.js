@@ -2,18 +2,20 @@ const fs = require('fs')
 
 console.log('hell begins');
 
-var content = `
-var num = 5;
-console.log("starting, getting number " + num);
-`;
+var content = ``;
 
-var i = 0;
+content += `if (num == 0) {
+    return true;
+}`
+
+var i = 1;
+
+console.log("creating");
 
 while (i < 100000) {
-    content += `
-    ${i == 0 ? "" : "else" } if (num == ${i}) {
-        console.log('number is ${i % 2 == 0 ? "even" : "odd"}');
-    }`
+    content += ` else if (num == ${i}) {
+        return ${i % 2 == 0 ? true : false};
+    }`;
     i++;
   }
 

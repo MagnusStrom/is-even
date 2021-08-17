@@ -1,0 +1,23 @@
+{
+  "name": "is-this-number-even",
+  "version": "0.0.1",
+  "description": "A handly little function to check if a number is even or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagnusStrom/is-even.git"
+  },
+  "keywords": [
+    "even",
+    "number"
+  ],
+  "author": "Zeptos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagnusStrom/is-even/issues"
+  },
+  "homepage": "https://github.com/MagnusStrom/is-even#readme"
+}
